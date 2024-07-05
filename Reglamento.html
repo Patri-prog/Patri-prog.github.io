@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reglamento</title>
+    <!-- Incluye Bootstrap a través de CDN para el CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- iconos de bootstrap -->
+    <link rel="stylesheet" href="style.css"> <!-- para agregar el archivo de estilo -->
+    <link rel="icon" href="./img/loguito.png" type="image/png">
+</head>
+<body>
+    <!-- Creamos la navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <span class="logo-principal">
+                    <img src="./img/file.png" alt="logo" width="80" height="60"> Instituto de Inglés "Cambridge"
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Inicio.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Nosotros.html" class="nav-link">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Cursos.html" class="nav-link">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Reglamento.html" class="nav-link">Reglamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Contactos.html" class="nav-link">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="separador"></div>
+
+    <!-- Sección de Reglamentos -->
+    <section class="section-padding">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h2 class="common-title">Reglamentos</h2>
+                    <img src="./img/niño.png" alt="Niño" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Inscripción y pagos
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    La vacante de un curso se garantiza mediante el pago de la matrícula anual. Cada nivel y modalidad de curso tiene una capacidad máxima de alumnos, entre 16 y 20 vacantes. 
+                                    La planificación del programa de cada nivel contempla las clases perdidas por feriados o paros de transporte, por lo que las cuotas mensuales se abonan completas de marzo a noviembre. Son pagos consecutivos, los cursos tiene un valor que están comprendidos en 9 cuotas anuales. No se puede abonar una cuota mensual si existe una cuota impaga previa, aunque el alumno no haya concurrido a clases. 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Asistencia y cambios de horario
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Consideramos que la asistencia a clases es el componente fundamental del éxito del curso, por lo que apelamos a la responsabilidad individual para minimizar las inasistencias y llegadas tarde. No se pierde la condición de alumno regular por inasistencias reiteradas. 
+                                    Los alumnos se pueden cambiar de horario dentro del mismo nivel en cualquier momento del año, siempre teniendo las cuotas al día y según la disponibilidad de vacantes en dicho curso. También es posible cambiarse de un curso presencial a uno virtual y viceversa.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Cursos Kids y Teens
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Los alumnos de los cursos infantiles, Kids 1 a 5, y de adolescentes, Teens 1 a 4, ingresan y se retiran del Instituto bajo la responsabilidad de sus padres. 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Cursos Online
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Los cursos online siguen el mismo programa y rinden el mismo examen que los presenciales. 
+                                    Es obligatorio mantener la cámara y el micrófono prendidos durante las clases.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Clases perdidas
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    La planificación del programa de cada nivel contempla las clases perdidas por feriados o paros de transporte. 
+                                    Es imposible recuperar clases en días u horarios alternativos. 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Aprobación del curso
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Es obligatorio aprobar el examen final para pasar de nivel.  El docente va a informar el criterio de aprobación de cada nivel. 
+                                    Con el pago de la última cuota se entrega el Derecho de Examen, en el que figuran las fechas y horarios de los exámenes escrito y oral. 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Aprobación de los cursos acelerados
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    En los cursos acelerados, que completan dos niveles en un año, se toma un examen escrito al concluir el primer nivel, y el docente emite una nota por el desempeño oral, ambos de carácter orientativo. 
+                                    Este examen no condiciona la permanencia en el curso. Se recurre a esta calificación en el caso de no haberse aprobado el examen final (tanto a fin de año como en el recuperatorio) para determinar si el alumno debe recursar el segundo nivel o los dos.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Información adicional -->
+    <section class="informacion-adicional bg-danger text-white pt-4 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Casa Central</h5>
+                    <p>9 de Julio 274, San Pedro de Jujuy</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.674013584883!2d-65.23145008502496!3d-24.232249084352434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b6138915c5ef1%3A0xa1f3d3e3b58c5b70!2s9%20de%20Julio%20274%2C%20San%20Pedro%20de%20Jujuy%2C%20Jujuy%2C%20Argentina!5e0!3m2!1sen!2sus!4v1622053048232!5m2!1sen!2sus" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contactos</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100063583273632" class="text-white"><i class="bi bi-facebook"></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cambridgeok/?hl=es-la" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/3513431797" class="text-white"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Horarios de Atención</h5>
+                    <p>Lunes a Viernes: 8:30 - 19:30</p>
+                    <p>Sábados: 8:30 - 12:30</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+        <p>&copy; 2024 | Todos los derechos reservados | By: Patricia Mercado</p>
+    </footer>
+
+    <!-- Incluye Bootstrap a través de CDN para el JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

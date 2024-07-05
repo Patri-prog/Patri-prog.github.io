@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px; /* Espacio para el footer fijo */
+    margin: 0; /* Asegúrate de que no haya margen en el body */
+    background-color: #eff1f5;
+    color: #2D2F3A;
+    font-size: 18px;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 120px; 
+}
+
+.header-txt {
+    flex-basis: 100%;
+    text-align: center;
+    font-weight: 1000; /* Ajuste del peso de la fuente a un valor intermedio */
+}
+
+.header-txt h1 {
+    font-size: 50px;
+    line-height: 1;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: 20px; 
+    font-weight: 1000; /* Ajuste del peso de la fuente a un valor más alto */
+}
+/* Ajuste para todos los títulos */
+h1, h2, h4, h5, h6 {
+    font-weight: 1000;
+    font-size: 55px;
+    margin-bottom: 35px /* Mismo grosor de fuente que el primer título */
+    
+}
+.header-txt p {
+    font-size: 17px;
+    color: #515557;
+    margin-bottom: 35px;
+    padding-top: 30px;
+    font-weight: 1000; /* Ajuste del peso de la fuente a un valor intermedio */
+}
+/* Ajuste para todos los párrafos */
+p {
+    font-weight: 1000; /* Mismo grosor de fuente que el primer párrafo */
+}
+.header-img {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-img img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.separador {
+    height: 100px; /* Ajusta esta altura según sea necesario */
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 2px 0; /* Ajusta este valor para cambiar la altura del footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px; /* Ajusta el tamaño de la fuente si es necesario */
+    line-height: 0; /* Ajusta la altura de línea para reducir la altura del footer */
+    margin: 0; /* Elimina cualquier margen adicional */
+}
+
+/* Información adicional styling */
+.informacion-adicional {
+    padding: 40px 0;
+    background-color: #dc3545; /* Fondo rojo */
+    color: white;
+}
+
+.informacion-adicional h5 {
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+.informacion-adicional p, .informacion-adicional a {
+    font-size: 16px;
+    color: white;
+}
+
+.informacion-adicional a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+.informacion-adicional a{
+    text-decoration: none;
+}
+.informacion-adicional ul {
+    padding: 0;
+    list-style: none;
+}
+
+.informacion-adicional ul li {
+    margin-bottom: 10px;
+}
+
+.cuestionario-img {
+    text-align: center;
+}
+
+.cuestionario-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cuestionario {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.g-porfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.g-porfolio-reverse {
+    flex-direction: row-reverse;
+}
+
+.porfolio-txt {
+    max-width: 45%;
+    margin: 0 20px;
+}
+
+
+.porfolio-txt-2 {
+    text-align: right;
+}
+
+.imgs {
+    max-width: 45%;
+    margin: 0 20px;
+}
+
+.imgs img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* Estilo para la tabla comparativa */
+.table-comparative {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #2D2F3A;
+    
+}
+
+.table-comparative th, .table-comparative td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+
+}
+/* Estilo para los encabezados de la tabla comparativa */
+.table-comparative th {
+    background-color: #dc3545; /* Fondo rojo */
+    color: #000000; /* Texto negro */
+}
+
+/* Estilo para las celdas de la tabla comparativa */
+.table-comparative td {
+    color: #000000; /* Texto negro */
+    
+}
+
+.section-header {
+    margin-bottom: 20px; /* Ajusta este valor según sea necesario */
+}
+.accordion-button {
+    color: #000; /* Cambia el color del texto a negro */
+    font-weight: bold; /* Asegura que el texto sea más grueso */
+}

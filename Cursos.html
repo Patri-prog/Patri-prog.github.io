@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos de Inglés</title>
+    <!-- Incluye bootstrap a través de CDN para el css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- iconos de bootstrap -->
+    <link rel="stylesheet" href="style.css"> <!-- para agregar el archivo de estilo -->
+    <link rel="icon" href="./img/loguito.png" type="image/png">
+</head>
+<body>
+    <!-- Creamos la navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <span class="logo-principal">
+                    <img src="./img/file.png" alt="logo" width="80" height="60"> Instituto de Inglés "Cambridge"
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Inicio.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Nosotros.html" class="nav-link">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Cursos.html" class="nav-link">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Reglamento.html" class="nav-link">Reglamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5501/Contactos.html" class="nav-link">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="separador"></div>
+
+    <!-- Sección de Cursos -->
+    <section class="section-padding">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="section-header text-black pb-3">
+                            <h2 class="common-title">Cursos de Inglés</h2>
+                        </div>
+                        <div>
+                            <h4 class="common-title">Test de nivelación</h4>
+                            <p>Te evaluamos para saber qué nivel de inglés tenes y, de esta manera, encontrar el curso ideal. Consiste en una conversación informal de 10 a 15 minutos con un profesor del Instituto.</p>
+                            <button type="button" class="btn btn-primary btn-lg btn-red" onclick="window.location.href='https://wa.me/3513431797'">Turno</button>
+                        </div>
+                    </div>
+                    <div class="mt-auto">
+                        <div class="video mt-3">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/L2BQiYtPmWw?si=6ssIfSRhmErz_Osu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aquí inicia el cuadro comparativo -->
+                <div class="col-md-6 d-flex flex-column justify-content-between">
+                    <table class="table table-bordered table-comparative mt-auto">
+                        <thead>
+                            <tr>
+                                <th>Curso</th>
+                                <th>Descripción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>KIDS</td>
+                                <td>Edad: De 3 a 12 años <br>
+                                    Estos cursos están diseñados para niños en edad preescolar y escolar. </td>
+                            </tr>
+                            <tr>
+                                <td>TEENS</td>
+                                <td>Edad: De 13 a 18 años <br>
+                                    Estos cursos están dirigidos a adolescentes. </td>
+                            </tr>
+                            <tr>
+                                <td>ADULTOS REGULARES</td>
+                                <td>Edad: De 18 años en adelante <br>
+                                    Cursos diseñados para adultos que desean aprender inglés de manera gradual.</td>
+                            </tr>
+                            <tr>
+                                <td>ADULTOS ACELERADOS</td>
+                                <td>Edad: De 18 años en adelante <br>
+                                    Estos cursos son para adultos que necesitan aprender inglés rápidamente, ya sea por motivos laborales, académicos o personales.</td>
+                            </tr>
+                            <tr>
+                                <td>CURSOS EXÁMENES INTERNACIONALES</td>
+                                <td>Edad: De 16 años en adelante (aunque pueden variar según el examen) <br>
+                                    Cursos específicos para preparar a los estudiantes para exámenes internacionales de inglés como TOEFL, IELTS, Cambridge (PET, FCE, CAE, CPE), entre otros. </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Aquí termina el cuadro comparativo -->
+            </div>
+        </div>
+    </section>
+     <!-- Información adicional -->
+     <section class="informacion-adicional bg-danger text-white pt-4 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Casa Central</h5>
+                    <p>9 de Julio 274, San Pedro de Jujuy</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.674013584883!2d-65.23145008502496!3d-24.232249084352434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b6138915c5ef1%3A0xa1f3d3e3b58c5b70!2s9%20de%20Julio%20274%2C%20San%20Pedro%20de%20Jujuy%2C%20Jujuy%2C%20Argentina!5e0!3m2!1sen!2sus!4v1622053048232!5m2!1sen!2sus" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contactos</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100063583273632" class="text-white"><i class="bi bi-facebook"></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cambridgeok/?hl=es-la" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/3513431797" class="text-white"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Horarios de Atención</h5>
+                    <p>Lunes a Viernes: 8:30 - 19:30</p>
+                    <p>Sábados: 8:30 - 12:30</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+        <p>&copy; 2024 | Todos los derechos reservados | By: Patricia Mercado</p>
+    </footer>
+    
+    <!-- Incluye Bootstrap a través de CDN para el JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></script>
+</body>
+</html>
